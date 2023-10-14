@@ -1,0 +1,9 @@
+/* hero image styling */
+.hero-image {
+    background-color: var(--light-blue);
+    background-image: url("../img/hero-image.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+  }
