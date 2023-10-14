@@ -41,7 +41,7 @@ This is the main website The Ashlar Club, a light blues club for Sussex freemaso
 
 ### Design
 
-The site is designed with five pages - a landing page, about us, events, contact us, useful links and past events. The menu tab is available on every page to allow the user to navigate from any page to any other page. 
+The site is designed with five pages - a landing page, about us, events, contact us, useful links and past events. The application is fully resposive and is able to be viewed on any screen size. The menu tab is available on every page to allow the user to navigate from any page to any other page. 
 
 The font families used for the project are Oswald for all headings, and Lato for the main body text.
 
@@ -49,20 +49,22 @@ This application is designed for freemasonry and as such, the colour pallette re
 ![colour palette image](assets/readme_img/colour_pallette.png)
 
 ### Wireframes
-Below are the wireframes that I created using [Balsamiq](https://balsamiq.com/)
+Below are the wireframes that were created using [Balsamiq](https://balsamiq.com/)
 #### Home
-![wireframe for index.html](#)
+![wireframe for index.html](assets/readme_img/index_comined.png)
 #### About
-![wireframe for about.html](#)
-#### The Fleet
-![wireframe for fleet.html](#)
+![wireframe for about.html](assets/readme_img/about_combined.png)
 #### Events
-![wireframe for events.html](#)
+![wireframe for fleet.html](assets/readme_img/events_combined.png)
+#### Contact us
+![wireframe for events.html](assets/readme_img/contact_combined.png)
+#### Gallery
+![wireframe for events.html](assets/readme_img/gallery_combined.png)
 
 ## Features
 - The site is fully responsive by using the [Bootstrap](https://getbootstrap.com/) framework.
 - The site is easy to navigate by using the navbar in the header if each page, and by making the headings in the about section links to the relevant page.
-- A table is used to display upcoming events in the events page.
+- Events are listed on the events page, with a link from each to the contact form
 
 ### Future Features
 - Add a members page with more specific information targeted at a regular user.
