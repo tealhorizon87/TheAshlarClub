@@ -40,6 +40,7 @@ a {
 }
 
 /* hero image styling------------------ */
+
 .hero-img {
   background-color: var(--light-blue);
   background-image: url("../img/hero-image.jpeg");
@@ -47,7 +48,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 85vh;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* header------------------------------- */
@@ -85,12 +87,13 @@ footer a {
 /* landing page---------------------- */
 
 .jumbotron-content {
+  margin-top: 8rem;
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: var(--white);
+  background-color: #e7ddd180;
   border-radius: .3rem;
   height: 200px;
   color: var(--dark-blue);
+  font-size: larger;
 }
 
 .find-out-button {
