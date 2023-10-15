@@ -1,9 +1,59 @@
-/* hero image styling */
-.hero-image {
-    background-color: var(--light-blue);
-    background-image: url("../img/hero-image.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 85vh;
-  }
+/* colours------------------------------- */
+
+:root {
+  --light-blue: #3ac5eb;
+  --dark-blue: #374eb8;
+  --gold: #eea25d;
+  --red: #ff4339;
+  --white: #e7ddd1;
+}
+
+/* fonts-------------------------------- */
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--dark-blue);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+  color: var(--dark-blue);
+  font-weight: bold;
+  text-align: center;
+}
+
+/* custom spacings and padding---------- */
+
+:root {
+  --main-spacer: 4rem; /* spacer between sections */
+  --sub-spacer: 2rem; /* spacer between headings and their content */
+  --mini-spacer: 1rem; /* spacer between different content */
+}
+
+/* hero image styling------------------ */
+body {
+  background-color: var(--light-blue);
+  background-image: url("../img/hero-image.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+
+
+
+/* header------------------------------- */
+
+
+
+
+
+
+
+
+
+
