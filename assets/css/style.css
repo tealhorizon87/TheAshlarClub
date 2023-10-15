@@ -68,3 +68,7 @@ footer {
 footer a {
   color: var(--white);
 }
+
+.socials {
+  padding-top: var(--mini-spacer);
+}
