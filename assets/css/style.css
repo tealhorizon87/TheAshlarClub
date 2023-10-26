@@ -54,6 +54,10 @@ a {
 
 /* header------------------------------- */
 
+header {
+  margin-bottom: var(--main-spacer);
+}
+
 .navbar {
   background-color: var(--light-blue);
 }
@@ -106,6 +110,26 @@ footer a {
 
 .find-out-button:hover {
   background-color: var(--red);
+}
+
+/* about page------------------------ */
+
+.about-us {
+  padding: 0 var(--sub-spacer);
+}
+
+.about-us h2 {
+  text-align: left;
+  margin-bottom: var(--sub-spacer);
+}
+
+.about-us div {
+  padding: 0;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
 }
 
 /* media queries--------------------- */
