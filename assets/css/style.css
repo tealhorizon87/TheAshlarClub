@@ -96,7 +96,7 @@ footer a {
   font-size: larger;
 }
 
-.find-out-button {
+.custom-button {
   background-color: var(--dark-blue);
   color: var(--white);
   border: none;
@@ -104,18 +104,16 @@ footer a {
   border-radius: 15px;
 }
 
-.find-out-button:hover {
+.custom-button:hover {
   background-color: var(--red);
 }
 
 /* about page------------------------ */
 
-.about-section {
-  margin-top: var(--main-spacer);
-}
-
 .about-us {
   padding: 0 var(--sub-spacer);
+  justify-content: space-between;
+  margin-top: var(--main-spacer);
 }
 
 .about-us h2 {
@@ -130,6 +128,19 @@ footer a {
 .about-img {
   display: flex;
   justify-content: center;
+}
+
+.contact-button {
+  background-color: var(--dark-blue);
+}
+
+.find-out-button:hover {
+  background-color: var(--red);
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 /* media queries--------------------- */
