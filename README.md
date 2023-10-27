@@ -1,6 +1,6 @@
 # TheAshlarClub
 A static website designed as a member’s forum and to advertise to new members. A link to the active page is [here](https://tealhorizon87.github.io/TheAshlarClub/).
-![mockup image](#)
+![mockup image](assets/readme_img/mockup.png)
 
 ## Table of Contents
 1. [UX](#ux)
