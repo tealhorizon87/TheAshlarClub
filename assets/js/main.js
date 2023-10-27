@@ -5,16 +5,16 @@ return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
 
-// insert text for about page from .txt file
-const container = document.getElementById("aboutContent");
+// // insert text for about page from .txt file
+// const container = document.getElementById("aboutContent");
 
-function getText() {
-    var myRequest = new Request("../assets/text/about_text.txt");
-    fetch(myRequest)
-        .then((response) => response.text())
-        .then((text) => {
-            container.innerHTML = text;
-        });
-}
+// function getText() {
+//     var myRequest = new Request("../assets/text/about_text.txt");
+//     fetch(myRequest)
+//         .then((response) => response.text())
+//         .then((text) => {
+//             container.innerHTML = text;
+//         });
+// }
 
-getText();
+// getText();

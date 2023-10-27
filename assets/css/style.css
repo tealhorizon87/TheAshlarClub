@@ -54,10 +54,6 @@ a {
 
 /* header------------------------------- */
 
-header {
-  margin-bottom: var(--main-spacer);
-}
-
 .navbar {
   background-color: var(--light-blue);
 }
@@ -113,6 +109,10 @@ footer a {
 }
 
 /* about page------------------------ */
+
+.about-section {
+  margin-top: var(--main-spacer);
+}
 
 .about-us {
   padding: 0 var(--sub-spacer);
