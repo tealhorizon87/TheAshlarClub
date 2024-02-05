@@ -6,17 +6,17 @@ return new bootstrap.Tooltip(tooltipTriggerEl)
 
 
 function sendMail(queryForm) {
-    var formData = {
-        "name": queryForm.name.value,
-        "email": queryForm.email.value,
-        "subject": queryForm.email.value,
-        "query": queryForm.query.value,
-    };
+  var formData = {
+      "name": queryForm.name.value,
+      "email": queryForm.email.value,
+      "subject": queryForm.email.value,
+      "query": queryForm.query.value,
+  };
 
-    emailjs.send("service_dgna3zv", "template_jh1yc7f", formData)
+  emailjs.send("service_dgna3zv", "template_jh1yc7f", formData)
   .then(
     function(response) {
-      window.location.href = "thanks.html"
+      window.location.href = "thanks.html";
       return response;
     },
     function(error) {
