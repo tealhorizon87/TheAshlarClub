@@ -31,6 +31,10 @@ a {
   text-decoration: none;
 }
 
+.left-align {
+  text-align: left;
+}
+
 /* custom spacings and padding---------- */
 
 :root {
@@ -66,12 +70,15 @@ a {
 
 /* footer------------------------------ */
 
+.footer-lp {
+  position: absolute;
+  bottom: 0;
+}
+
 footer {
   text-align: center;
   font-size: 2rem;
   background-color: var(--light-blue);
-  position: absolute;
-  bottom: 0;
   width: 100%;
   height: 100px;
 }
@@ -110,6 +117,10 @@ footer a {
 
 /* about page------------------------ */
 
+.about {
+  margin-bottom: var(--main-spacer);
+}
+
 .about-us {
   padding: 0 var(--sub-spacer);
   justify-content: space-between;
@@ -141,6 +152,15 @@ footer a {
 .contact-button a {
   text-decoration: none;
   color: var(--white);
+}
+
+.team-heading {
+  margin-bottom: var(--sub-spacer);
+}
+
+.team-img {
+  width: 250px;
+  height: 250px;
 }
 
 /* media queries--------------------- */
