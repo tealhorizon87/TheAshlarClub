@@ -26,20 +26,3 @@ function sendMail(form) {
     
   return false;
 }
-
-// window.onload = function() {
-//   document.getElementById('queryForm').addEventListener('submit', function(event) {
-//       event.preventDefault();
-//       // these IDs from the previous steps
-//       emailjs.sendForm("service_dgna3zv", "template_jh1yc7f", this)
-//       .then(
-//         function(response) {
-//           window.location.href = "thanks.html";
-//           return response;
-//         },
-//         function(error) {
-//           alert("I'm sorry, something went wrong! Please try again");
-//           return error;
-//         });
-//   });
-// }
