@@ -170,6 +170,17 @@ footer a {
   justify-content: center;
 }
 
+/* events page----------------------- */
+
+.event-item {
+  margin-top: var(--sub-spacer);
+}
+
+.event-img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 /* media queries--------------------- */
 
 @media (max-width: 767px) {
