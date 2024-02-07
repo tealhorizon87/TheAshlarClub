@@ -67,8 +67,10 @@ Below are the wireframes that were created using [Balsamiq](https://balsamiq.com
 - Events are listed on the events page, with a link from each to the contact form
 
 ### Future Features
-- Add a members page with more specific information targeted at a regular user.
-- Add a login/sign up modal to access the members section.
+- Add a members page with more specific information targeted at a regular user
+- Add a login/sign up modal to access the members section
+- Show feedback from club members about the group and their activities
+- Improve the contact form to include booking onto events directly from the site
 
 ## Technologies Used
 ### Languages:
@@ -119,11 +121,43 @@ Performance can be increased by changing the format of the images used, but for 
 ### User Stories Evaluation
 To ensure that the project fulfils the goals set out in the user stories:
 
+User Stories
+- As a general user, I expect -
+    - to be able to easily navigate around the site
+        - __a clearly designed menu is available on both desktop and mobile versions of the site is the expected location__
+    - to be able to view the site from any device size
+        - __the application is fully responsive and functions on all browsers and most screen sizes; some of the very smallest smartphone screens may notice some layout issues__
 
+Member stories
+- As a member, I want
+    - to easily view a calendar of upcoming events
+        - __there is currently no calendar, but events are listed in date order on the events page__
+    - to be able to book onto events directly from the site
+        - __this feature has not yet been added to the site, but users will be able to link to the contact form in order to contact admin for booking__
+    - to 'meet' the committee in charge
+        - __a section is included with committee members and their names, although more information can be added at a later date if warranted__
+    - to be able to send queries and suggestions to the committee directly from the site
+        - __there is a basic contact form that will send an email from the site via [emailJS](https://www.emailjs.com/) to the admin team__
+
+Guest user stories
+- As a guest, I want
+    - to understand what the website is for
+        - __the general style and imagery used provide this concept__
+    - to find information about what the club does
+        - __the about section of the application provides a short explantion of the group and what it does__
+    - to view feedback from members about the club
+        - __this feature is not yet available, but can be included into the gallery section__
+    - to 'meet' the committee in charge
+        - __see above__
+    - to be able to ask questions or sign up for the club directly from the site
+        - __a contact form is available for users to contact admin, but signing up directly from the site is not currently available, and will likely never be needed__
 
 ## Credits
+This application has been designed as a point of contact for a lightblue club in the masonic province of Sussex. It is a modernisation of the current application, with updated style and layout.
 
 ### Media
+All images used, including the hero image on the landing page are used with the consent of the parties included, and have been provided by committee members of the group
   
 ### Acknowledgements
+All code contained in this applicatin is either original or taken directly from the documentation sites of the various APIs involved with one exception - the code used to display the gallery images was taken from [MDB](https://mdbootstrap.com/docs/standard/extended/gallery/) and has been attributed in the HTML file for the galler page.
 
