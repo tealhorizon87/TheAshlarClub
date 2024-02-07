@@ -117,10 +117,6 @@ footer a {
 
 /* about page------------------------ */
 
-.about {
-  margin-bottom: var(--main-spacer);
-}
-
 .about-us {
   padding: 0 var(--sub-spacer);
   justify-content: space-between;
@@ -134,11 +130,6 @@ footer a {
 
 .about-us div {
   padding: 0;
-}
-
-.about-img {
-  display: flex;
-  justify-content: center;
 }
 
 .contact-button {
