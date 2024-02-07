@@ -159,5 +159,5 @@ This application has been designed as a point of contact for a lightblue club in
 All images used, including the hero image on the landing page are used with the consent of the parties included, and have been provided by committee members of the group
   
 ### Acknowledgements
-All code contained in this applicatin is either original or taken directly from the documentation sites of the various APIs involved with one exception - the code used to display the gallery images was taken from [MDB](https://mdbootstrap.com/docs/standard/extended/gallery/) and has been attributed in the HTML file for the galler page.
+All code contained in this applicatin is either original or taken directly from the documentation sites of the various APIs involved with one exception - the code used to display the gallery images was taken from [MDB](https://mdbootstrap.com/docs/standard/extended/gallery/) and has been attributed in the HTML file for the gallery page.
 
