@@ -97,6 +97,29 @@ Below are the wireframes that were created using [Balsamiq](https://balsamiq.com
 
 ## Testing
 
+### Code Validation
+To ensure the application is up to standard, I ran the code through a validator.
+
+- All pages validated succefully for HTML standardisation (below is the output for the landing page):
+    ![HTML valid](assets/readme_img/HTML_valid.png)
+
+- The CSS stylesheet used for this application was checked and validated successfully as well:
+    ![CSS valid](assets/readme_img/CSS_valid.png)
+
+- The limited amount of javaScript was checked for errors and none were found, however all javaScript in this application come from outside sources. 
+
+### Performance
+Lighthouse was used in Chrome developer tools to test the performance of the page. THis was done for both desktop and mobile devices:
+
+![lighthouse report desktop](assets/readme_img/lighthouse_report.png)
+![lighthouse report mobile](assets/readme_img/lighthouse_report_mobile.png)
+
+Performance can be increased by changing the format of the images used, but for the amount of traffic this application is expecting, it is suficient for the time being.
+
+### User Stories Evaluation
+To ensure that the project fulfils the goals set out in the user stories:
+
+
 
 ## Credits
 
