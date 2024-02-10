@@ -101,6 +101,7 @@ footer a {
   height: 200px;
   color: var(--dark-blue);
   font-size: larger;
+  text-align: center;
 }
 
 .custom-button {
