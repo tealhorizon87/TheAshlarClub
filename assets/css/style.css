@@ -181,3 +181,16 @@ footer a {
     width: 50px;
   }
 }
+
+@media (min-width: 385px) {
+  .footer-con {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer-lp {
+    position: relative;
+  }
+}
