@@ -186,6 +186,12 @@ footer a {
   }
 }
 
+@media (min-width: 767px) {
+  .card-content {
+    display: flex;
+  }
+}
+
 @media (min-width: 385px) {
   .footer-con {
     position: absolute;
