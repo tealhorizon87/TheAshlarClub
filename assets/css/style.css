@@ -118,6 +118,10 @@ footer a {
 
 /* about page------------------------ */
 
+.about-img {
+  width: 100% \9;
+}
+
 .about-us {
   padding: 0 var(--sub-spacer);
   justify-content: space-between;
